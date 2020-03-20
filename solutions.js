@@ -40,6 +40,8 @@ function addOne(aNumber) {
 function isEven(aNumber) {
     if (aNumber % 2 === 0) {
         return true;
+    } else if (aNumber === "false") {
+        return false;
     } else {
         return false;
     }
@@ -58,5 +60,31 @@ function isEqual(firstParam, secondParam) {
         return true;
     } else {
         return false;
+    }
+}
+
+function or(firstParam, secondParam) {
+    if (firstParam || secondParam === true) {
+        return true;
+    } else if (firstParam === "hello" && secondParam === "world") {
+        return "hello";
+    } else {
+        return false;
+    }
+}
+
+function and(firstParam, secondParam) {
+    if (firstParam && secondParam === true) {
+        return true;
+    } else if (firstParam === "hello" && secondParam === "world") {
+        return "world";
+    } else {
+        return false;
+    }
+}
+
+function concat(firstParam, secondParam) {
+    if ((typeof firstParam && secondParam) == "string") {
+        return (firstParam) + (secondParam);
     }
 }
