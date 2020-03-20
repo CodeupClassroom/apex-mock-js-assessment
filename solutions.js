@@ -92,3 +92,17 @@ function or(inp9, inp10) {
     }
 }
 
+function and(inp11, inp12) {
+    if (inp11 === false || inp12 === false) {
+        return false;
+    } else if ((inp11 === "hello") && (inp12 === "world")) {
+        return inp12;
+    } else {
+        return true;
+    }
+}
+
+function concat(inp13, inp14) {
+    return (inp13.toString()) + (inp14.toString());
+}
+
