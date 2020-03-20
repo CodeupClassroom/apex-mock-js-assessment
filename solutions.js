@@ -41,6 +41,10 @@ function addOne(aNumber) {
 console.log(addOne(0));
 console.log(addOne(-5));
 
+// isEven function
 function isEven(aNumber) {
+    if (aNumber === false){
+        return false;
+    } else
     return aNumber % 2 == 0;
 }
