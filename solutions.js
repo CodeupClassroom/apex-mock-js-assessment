@@ -50,4 +50,10 @@ function not(inp2) {
     }
 }
 
-
+function addOne(inp3) {
+    if (inp3 === Infinity) {
+        return Infinity;
+    } else {
+    return parseInt(inp3) + 1;
+    }
+}
