@@ -20,3 +20,7 @@
  * and
  * concat
  */
+
+function isTrue(param){
+    return param === true;
+}
