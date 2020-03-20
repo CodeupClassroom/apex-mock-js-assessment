@@ -20,7 +20,18 @@
  * and
  * concat
  */
-
+//Exercise 1
 function isTrue(param){
     return param === true;
 }
+
+//Exercise 2
+function isFalse(param){
+    return param === false;
+}
+
+//Exercise 3
+function not(param){
+    return !param;
+}
+
