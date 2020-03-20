@@ -25,13 +25,22 @@ function isTrue(param){
     return param === true;
 }
 
-//Exercise 2
+//Exercise 2- Define a function named isFalse that takes in a value and returns a true if and only if the provided input is equal to false in both type and value.
+
 function isFalse(param){
     return param === false;
 }
 
-//Exercise 3
+//Exercise 3- Define a function named not that takes in any input and returns the boolean opposite of the provided input.
+
 function not(param){
     return !param;
 }
 
+//Exercise 4- Define a function named addOne that takes in a single input. If the input is a number or a numeric string, return the value plus one.
+function addOne(param){
+    return parseInt(param) + 1;
+}
+//Can't figure out how to pass infinity and get infinity
+
+//
