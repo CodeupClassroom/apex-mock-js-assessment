@@ -21,6 +21,23 @@
  * concat
  */
 
+// Number One
     function isTrue(input){
         return input === true;
 }
+
+// Number Two
+    function isFalse(input){
+        if(input === false){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+// Number Three
+    function not(input) {
+        return !input;
+    }
+
+// Number Four
