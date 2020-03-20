@@ -24,3 +24,19 @@
 function isTrue(param) {
     return param === true;
 }
+
+function isFalse(param) {
+    return param == false;
+}
+
+function not(blue) {
+    return !blue;
+}
+
+function addOne(x) {
+    return (2 + 1);
+}
+
+function isEven(x) {
+
+}
