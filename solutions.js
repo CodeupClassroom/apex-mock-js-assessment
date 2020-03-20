@@ -20,3 +20,34 @@
  * and
  * concat
  */
+
+function isTrue(param) {
+    return param === true;
+}
+
+function isFalse(inp1) {
+    return inp1 === false;
+}
+
+function not(inp2) {
+    // return (inp2 !== inp2) &&;
+    if (inp2 !== inp2) {
+        return true;
+    } else if (inp2 === true) {
+        return false;
+    } else if (inp2 === "") {
+        return true;
+    } else if (typeof(inp2) === "number") {
+        if (inp2 === 0) {
+            return true;
+        } else {
+            return false;
+        }
+    } else if (inp2 === "hello") {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+
