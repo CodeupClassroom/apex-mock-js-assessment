@@ -20,3 +20,27 @@
  * and
  * concat
  */
+
+
+function isTrue(aBoolean) {
+    return aBoolean === true;
+}
+
+function isFalse(aBoolean) {
+    return aBoolean === false;
+}
+
+// addOne function
+// var aNumber = parseInt(aNumber);
+function addOne(aNumber) {
+    return (aNumber + 1);
+}
+//should return -4 when passed "-5"
+// should return 1 when passed "0"
+// able to pass "STRING" and number in function.
+console.log(addOne(0));
+console.log(addOne(-5));
+
+function isEven(aNumber) {
+    return aNumber % 2 == 0;
+}
