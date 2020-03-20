@@ -79,3 +79,12 @@
         return input || value;
     }
 
+// Number Nine
+    function and(input, value) {
+        return input && value;
+    }
+
+// Number Ten
+    function concat() {
+
+    }
