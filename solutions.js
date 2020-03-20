@@ -57,4 +57,10 @@
     }
 
 // Number Six
-
+    function isIdentical(input , value) {
+        if (input === value) {
+            return true;
+        } else {
+            return false;
+        }
+    }
