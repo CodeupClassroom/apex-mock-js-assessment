@@ -42,9 +42,9 @@ function addOne(number) {
 }
 
 function isEven(number) {
-    if (number % 2 === 0) {
+    if (parseInt(number) % 2 === 0 && isNaN(parseInt(number)) === false) {
         return true;
-    } else if (number === NaN || Boolean) {
+    } else{
         return false;
     }
 }
