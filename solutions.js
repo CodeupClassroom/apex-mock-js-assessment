@@ -47,4 +47,14 @@
     }
 
 // Number Five
+    function isEven(input) {
+        input = parseInt(input);
+        if (input % 2 === 0){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+// Number Six
 
