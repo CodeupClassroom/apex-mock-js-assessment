@@ -21,14 +21,56 @@
  * concat
  */
 
-// #2
+// isTrue
 function isTrue(param){
     return param === true;
 }
 
-// #3
+// isFalse
 
 function isFalse(param){
     return param === false;
 }
 
+// not PENDING
+
+function not(param){
+    return param !== false;
+}
+
+// addOne PENDING
+ function addOne(input) {
+    return (input) + 1;
+ }
+
+ // isEven PENDING
+
+function isEven(input) {
+ return (isEven % 2 !== 1);
+}
+
+// isIdentical
+
+function isIdentical(first, second) {
+    if (first === second) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// isEqual
+
+function isEqual(first, second) {
+    if (first == second) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// or
+
+function or(one, two) {
+
+}
