@@ -57,3 +57,19 @@ function addOne(inp3) {
     return parseInt(inp3) + 1;
     }
 }
+
+function isEven(inp4) {
+    if (parseInt(inp4) % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isIdentical(inp5, inp6) {
+    if (inp5 === inp6) {
+        return true;
+    } else {
+        return false;
+    }
+}
