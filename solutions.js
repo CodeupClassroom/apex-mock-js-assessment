@@ -21,11 +21,11 @@
  * concat
  */
 
-
+// isTrue function
 function isTrue(aBoolean) {
     return aBoolean === true;
 }
-
+// isFalse function
 function isFalse(aBoolean) {
     return aBoolean === false;
 }
@@ -47,4 +47,50 @@ function isEven(aNumber) {
         return false;
     } else
     return aNumber % 2 == 0;
+}
+
+// not function
+function not(param) {
+    if (param === "hello" || true) {
+        return false;
+    } else if (param === "" || 'null') {
+        return true;
+    } else if (param === isNaN) {
+        return true;
+    }
+}
+
+// or function
+function or(param) {
+    if (param == true) {
+        return true;
+    } else if (param == false) {
+        return false;
+    } else if (param === "hello" || "world") {
+        return "hello";
+    }
+}
+
+// isEqual function
+function isEqual(param) {
+
+}
+
+// and function
+function and(param) {
+
+}
+
+// concat function
+function concat(param) {
+
+}
+
+// isIdentical function
+function isIdentical(param) {
+    if (param === param) {
+        return true;
+    } else if (param == param) {
+        return false;
+    }
 }
