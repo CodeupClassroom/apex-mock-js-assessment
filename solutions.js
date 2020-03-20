@@ -73,3 +73,9 @@
             return false;
         }
     }
+
+// Number Eight
+    function or(input ,  value) {
+        return input || value;
+    }
+
