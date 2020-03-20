@@ -21,6 +21,42 @@
  * concat
  */
 
-function isTrue(parameter) {
-    return parameter === true;
+function isTrue(param) {
+    return param === true;
+}
+
+function isFalse(param) {
+    return param === false;
+}
+
+function not(param) {
+    return (!param);
+}
+
+function addOne(aNumber) {
+    return aNumber + 1;
+}
+
+function isEven(aNumber) {
+    if (aNumber % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isIdentical(firstParam, secondParam) {
+    if (firstParam === secondParam) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isEqual(firstParam, secondParam) {
+    if (firstParam == secondParam) {
+        return true;
+    } else {
+        return false;
+    }
 }
