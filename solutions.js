@@ -38,11 +38,14 @@ function addOne (param) {
 }
 
 function isEven (param) {
-    param = Number(param);
-    if (param % 2 === 0) {
-        return true;
-    } else {
+    if (param === false) {
         return false;
+    } else {
+        if (param % 2 === 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 
