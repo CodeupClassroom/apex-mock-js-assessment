@@ -89,7 +89,15 @@ function isEqual(param) {
 
 // and function
 function and(param) {
-
+    var oneAnd = true;
+    var twoAnd = true;
+    if (param === "hello" || "world") {
+        return "world";
+    } else if (param == true && oneAnd === twoAnd) {
+        return true;
+    } else if (param == false) {
+        return false;
+    }
 }
 
 // concat function
