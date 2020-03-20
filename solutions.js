@@ -34,7 +34,7 @@ function not(blue) {
 }
 
 function addOne(x) {
-   return x +1;
+   return parseInt(x) + 1;
 }
 
 function isEven(x) {
@@ -61,7 +61,6 @@ function isEqual(a, b) {
     }
 }
 
-
 function or(snowing, raining) {
         return snowing || raining;
 }
@@ -75,4 +74,5 @@ function and(cat, dog) {
 function concat(ocean, sky) {
     return ocean + sky;
 }
+
 
