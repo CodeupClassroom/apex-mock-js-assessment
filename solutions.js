@@ -20,3 +20,62 @@
  * and
  * concat
  */
+
+
+function isTrue(parameter) {
+    return parameter === true;
+}
+
+function isFalse(parameter) {
+    return parameter === false;
+}
+
+
+function not(input) {
+    return !Boolean(input);
+}
+
+
+
+
+//need work here
+function addOne(userNumber) {
+    var parsedNumber = parseInt(userNumber)
+        return parsedNumber + 1;
+}
+
+
+
+
+function isEven(aNumber) {
+    if (aNumber === false) {
+        return false
+    } else {
+        return aNumber % 2 === 0;
+    }
+}
+
+function isIdentical(value1, value2) {
+    return value1 === value2;
+}
+
+function isEqual(value1, value2) {
+    return value1 == value2;
+}
+
+
+function or(value1, value2) {
+    return value1 || value2;
+}
+
+
+function and(input1, input2) {
+    return input1 && input2;
+}
+
+
+function concat(input1, input2) {
+  return String(input1) + String(input2);
+}
+
+
