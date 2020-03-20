@@ -72,5 +72,12 @@ function isEqual(first, second) {
 // or
 
 function or(one, two) {
-
+ return (one || two);
 }
+
+// and
+
+function and(op1, op2) {
+    return (op1 && op2);
+}
+
