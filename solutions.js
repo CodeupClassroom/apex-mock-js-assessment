@@ -43,7 +43,7 @@ function addOne (input){
 }
 
 function isEven (input){
-    input = parseInt(input)
+    input = parseInt(input);
     if (input % 2 === 0){
         return true;
     } else{
