@@ -25,21 +25,32 @@
 function isTrue(aBoolean) {
     return aBoolean === true;
 }
+
 // isFalse function
 function isFalse(aBoolean) {
     return aBoolean === false;
 }
 
 // addOne function
-// var aNumber = parseInt(aNumber);
 function addOne(aNumber) {
-    return (aNumber + 1);
+    var parsedNumber = parseInt(aNumber)
+    if (aNumber === Infinity){
+        return Infinity;
+    } else{
+        return (parsedNumber + 1);
+    }
 }
-//should return -4 when passed "-5"
-// should return 1 when passed "0"
-// able to pass "STRING" and number in function.
 console.log(addOne(0));
 console.log(addOne(-5));
+
+// isIdentical function
+function isIdentical(param) {
+    if (param === param) {
+        return true;
+    } else if (param == param) {
+        return false;
+    }
+}
 
 // isEven function
 function isEven(aNumber) {
@@ -84,13 +95,4 @@ function and(param) {
 // concat function
 function concat(param) {
 
-}
-
-// isIdentical function
-function isIdentical(param) {
-    if (param === param) {
-        return true;
-    } else if (param == param) {
-        return false;
-    }
 }
