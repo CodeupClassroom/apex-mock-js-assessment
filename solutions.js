@@ -34,9 +34,33 @@ function not(blue) {
 }
 
 function addOne(x) {
-    return (2 + 1);
+   return x +1;
 }
 
 function isEven(x) {
+     if (x % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isIdentical(luckyNum, totalBill) {
+    if (luckyNum === totalBill) {
+        return true;
+    }   else  {
+        return false;
+    }
+}
+
+function isEqual(a, b) {
+    if (a == b) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function or() {
 
 }
