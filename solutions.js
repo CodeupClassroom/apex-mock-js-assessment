@@ -61,6 +61,18 @@ function isEqual(a, b) {
     }
 }
 
-function or() {
 
+function or(snowing, raining) {
+        return snowing || raining;
 }
+
+function and(cat, dog) {
+    if (cat <= dog) {
+        return cat && dog;
+    }
+}
+
+function concat(ocean, sky) {
+    return ocean + sky;
+}
+
