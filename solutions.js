@@ -30,3 +30,44 @@ function isFalse(param) {
     return param === false;
 }
 
+function addOne(x) {
+    return (+x + 1);
+}
+
+
+function isEven(x) {
+    if (x % 2 === 0) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function isIdentical (x1, x2) {
+    if (x1 === x2) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
+
+function isEqual (x1, x2) {
+    if (x1 == x2) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function or(x1, x2) {
+    return x1 || x2 === true;
+}
+
+function and(x1, x2) {
+    if (x1 && x2) {
+        return true;
+    } else {
+        return false;
+    }
+}
