@@ -21,10 +21,35 @@
  * concat
  */
 
-function isTrue (param){
+function isTrue(param) {
     return param === true;
 }
 
-function isFalse (param){
+function isFalse(param) {
     return param === false;
 }
+
+function not(param) {
+    return !param;
+}
+
+function addOne(number) {
+    if (number === Infinity) {
+        return Infinity
+    } else if (number) {
+        return parseInt(number) + 1;
+    }
+}
+
+function isEven(number) {
+    if (number % 2 === 0) {
+        return true;
+    } else if (number === NaN || Boolean) {
+        return false;
+    }
+}
+
+function isIdentical(param1, param2) {
+    return param1 === param2
+}
+
