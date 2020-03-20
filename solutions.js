@@ -34,19 +34,25 @@ function isFalse(param){
 
 // not PENDING
 
-function not(param){
-    return param !== false;
+function not(param) {
+    if (param !== false) {
+        return false;
+    }
 }
 
 // addOne PENDING
  function addOne(input) {
-    return (input) + 1;
+    return (parseInt(input)) + 1;
  }
 
  // isEven PENDING
 
 function isEven(input) {
- return (isEven % 2 !== 1);
+ if (input % 2 !== 1) {
+     return true;
+ } else if (input !== 0 || " ") {
+     return false;
+ }
 }
 
 // isIdentical
@@ -79,5 +85,16 @@ function or(one, two) {
 
 function and(op1, op2) {
     return (op1 && op2);
+}
+
+// concat PENDING
+
+function concat(con1, con2) {
+    if (con1 + con2) {
+        return(con1 + con2);
+    } else if ("con1" + "con2"); {
+        return ("con1 " + "con2");
+    }
+
 }
 
