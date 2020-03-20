@@ -28,3 +28,23 @@ function isTrue (param) {
 function isFalse (param) {
     return param === false;
 }
+
+function not (param) {
+    return !param;
+}
+
+function addOne(x) {
+    var parseInteger = parseInt(x);
+    return parseInteger + 1;
+}
+addOne("1");
+
+function isEven (x) {
+    return x % 2 === 0;
+}
+isEven(false);
+
+function isIdentical (x, y) {
+    return x === y;
+}
+isIdentical(1, 1);
