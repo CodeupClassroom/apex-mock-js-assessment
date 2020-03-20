@@ -73,3 +73,22 @@ function isIdentical(inp5, inp6) {
         return false;
     }
 }
+
+function isEqual(inp7, inp8) {
+    if (inp7 == inp8) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function or(inp9, inp10) {
+    if (inp9 === true || inp10 === true) {
+        return true;
+    } else if ((inp9 === "hello") && (inp10 === "world")) {
+        return inp9;
+    } else {
+        return false;
+    }
+}
+
