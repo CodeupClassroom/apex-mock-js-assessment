@@ -33,7 +33,7 @@ function not(param) {
     return !param;
 }
 
-function addOne(number) {
+function addOne (number) {
     if (number === Infinity) {
         return Infinity
     } else if (number) {
@@ -41,7 +41,7 @@ function addOne(number) {
     }
 }
 
-function isEven(number) {
+function isEven (number) {
     if (parseInt(number) % 2 === 0 && isNaN(parseInt(number)) === false) {
         return true;
     } else{
@@ -49,7 +49,22 @@ function isEven(number) {
     }
 }
 
-function isIdentical(param1, param2) {
+function isIdentical (param1, param2) {
     return param1 === param2
 }
 
+function isEqual (param1, param2) {
+    return param1 == param2;
+}
+
+function or (param1, param2){
+    return param1 || param2;
+}
+
+function and(param1, param2){
+    return param1 && param2;
+}
+
+function concat(param1, param2){
+    return (param1.toString()) + (param2.toString());
+}
