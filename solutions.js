@@ -30,61 +30,41 @@ function isFalse(param) {
 }
 
 function not(param) {
-    return (!param);
+    return !param;
 }
 
 function addOne(aNumber) {
-    return aNumber + 1;
+    if (aNumber === Infinity) {
+        return Infinity
+    } else if (aNumber) {
+        return parseInt(aNumber) + 1;
+    }
 }
 
 function isEven(aNumber) {
-    if (aNumber % 2 === 0) {
+    if (parseInt(aNumber) % 2 === 0 && isNaN(parseInt(aNumber)) === false) {
         return true;
-    } else if (aNumber === "false") {
-        return false;
-    } else {
+    } else{
         return false;
     }
 }
 
 function isIdentical(firstParam, secondParam) {
-    if (firstParam === secondParam) {
-        return true;
-    } else {
-        return false;
-    }
+    return firstParam === secondParam;
 }
 
 function isEqual(firstParam, secondParam) {
-    if (firstParam == secondParam) {
-        return true;
-    } else {
-        return false;
-    }
+    return firstParam == secondParam;
 }
 
 function or(firstParam, secondParam) {
-    if (firstParam || secondParam === true) {
-        return true;
-    } else if (firstParam === "hello" && secondParam === "world") {
-        return "hello";
-    } else {
-        return false;
-    }
+    return firstParam || secondParam;
 }
 
 function and(firstParam, secondParam) {
-    if (firstParam && secondParam === true) {
-        return true;
-    } else if (firstParam === "hello" && secondParam === "world") {
-        return "world";
-    } else {
-        return false;
-    }
+    return firstParam && secondParam;
 }
 
 function concat(firstParam, secondParam) {
-    if ((typeof firstParam && secondParam) == "string") {
-        return (firstParam) + (secondParam);
-    }
+    return (firstParam.toString()) + (secondParam.toString())
 }
