@@ -25,6 +25,44 @@ function isTrue(param){
     return param === true;
 }
 
-function isFalse() {
+function isFalse(value){
+    if (value === false){
+        return true;
+    } else {
+        return false;
+    }
+}
 
+function not(input) {
+    return !input;
+}
+
+function addOne (input){
+    var parse = parseFloat(input);
+    return parse + 1;
+}
+
+function isEven (input){
+    input = parseInt(input)
+    if (input % 2 === 0){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+function isIdentical(input1, input2){
+    if (input1 === input2){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+function isEqual(input1, input2){
+    if (input1 == input2){
+        return true;
+    } else {
+        return false;
+    }
 }
