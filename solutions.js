@@ -80,11 +80,11 @@
     }
 
 // Number Nine
-    function and(input, value) {
+    function and(input , value) {
         return input && value;
     }
 
 // Number Ten
-    function concat() {
-
+    function concat(input , value) {
+        return input.toString() + value.toString();
     }
