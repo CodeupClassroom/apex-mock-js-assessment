@@ -41,3 +41,10 @@
     }
 
 // Number Four
+    function addOne(input) {
+        input = parseFloat(input);
+        return input + 1;
+    }
+
+// Number Five
+
