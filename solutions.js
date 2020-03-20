@@ -37,6 +37,10 @@ function isFalse(param){
 function not(param) {
     if (param !== false) {
         return false;
+    } else if (param === false) {
+        return true;
+    } else if (param === null) {
+        return true;
     }
 }
 
