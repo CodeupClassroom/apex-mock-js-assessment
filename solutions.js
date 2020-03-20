@@ -20,3 +20,70 @@
  * and
  * concat
  */
+
+function isTrue(param) {
+    return  param === true;
+
+}
+
+function isFalse(param) {
+    return param === false;
+}
+
+function not(param) {
+    return !param;
+
+}
+
+
+// function AddOne(param) {
+//     }
+
+function isEven(param) {
+    if (param % 2 === 0 || param === !isNaN(parseFloat(param)) && isFinite(param)) {
+        return true;
+    }
+    else  {
+        return false;
+    }
+
+}
+
+
+function isIdentical(param1, param2) {
+    if(param1 === param2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isEqual(param1, param2) {
+    if(param1 == param2){
+        return true
+    } else {
+        return false;
+    }
+}
+
+function or(param1, param2) {
+    if (param1 || param2){
+        return true;
+    }
+}
+
+function and(param1, param2) {
+    if(param1 && param2) {
+    return true;
+} else {
+        return false;
+    }
+}
+
+function concat(param1, param2) {
+    if(param1 === "" && param2 === "") {
+        return param1 + param2;
+    } else if (param1 <= 0 && param2 <= 0) {
+        return parseInt(param1) + parseInt(param2);
+    }
+}
