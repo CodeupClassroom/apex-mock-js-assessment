@@ -28,5 +28,9 @@ function isTrue(param) {
 
 //function isFalse()
 function isFalse(value){
-
+    if (value === false){
+        return true;
+    } else{
+        return false;
+    }
 }
