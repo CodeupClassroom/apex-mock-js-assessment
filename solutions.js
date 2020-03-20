@@ -64,3 +64,12 @@
             return false;
         }
     }
+
+// Number Seven
+    function isEqual(input , value) {
+        if (input == value) {
+            return true;
+        } else {
+            return false;
+        }
+    }
