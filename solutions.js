@@ -24,3 +24,50 @@
 function isTrue(param) {
     return param === true;
 }
+
+function isFalse (param) {
+    return param === false;
+}
+
+function not (param) {
+    return !param;
+}
+
+function addOne (param) {
+    return Number(param) + 1;
+}
+
+function isEven (param) {
+    param = Number(param);
+    if (param % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isIdentical (param1, param2) {
+    return param1 === param2;
+}
+
+function isEqual (param1, param2) {
+    return param1 == param2;
+}
+
+function or (param1, param2) {
+    return param1 || param2;
+}
+
+function and (param1, param2) {
+    return param1 && param2;
+}
+
+function concat (param1, param2) {
+
+    return param1.toString() + param2.toString();
+}
+
+
+
+
+
