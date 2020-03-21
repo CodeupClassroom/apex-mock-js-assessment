@@ -21,60 +21,29 @@
  * concat
  */
 
-function isTrue(param) {
-    return  param === true;
-
+function isTrue(param){
+    return param === true;
 }
 
 function isFalse(param) {
     return param === false;
+
 }
 
 function not(param) {
     return !param;
-
 }
 
-
-function addOne(param) {
-
-    if(param === Infinity){
-    return Infinity;
-    }
-    return 1 + parseInt(param);
+function  addOne(param) {
+    return
 }
 
-function isEven(param) {
+//
+// function isEven(param) {
+//
+//     if(param === false)
+//         return (param % 2) === 0;
+// }
 
-    if(arg === false)
-    return (param % 2) === 0;
-}
 
 
-function isIdentical(param1, param2) {
-    if(param1 === param2) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function isEqual(param1, param2) {
-    if(param1 == param2){
-        return true
-    } else {
-        return false;
-    }
-}
-
-function or(param1, param2) {
-  return  (param1 || param2);
-}
-
-function and(param1, param2) {
-   return (param1 && param2);
-    }
-
-function concat(param1, param2){
-    return param1 + "" + param2;
-}
