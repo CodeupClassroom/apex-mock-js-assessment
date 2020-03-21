@@ -36,17 +36,18 @@ function not(param) {
 }
 
 
-// function AddOne(param) {
-//     }
+function addOne(param) {
+
+    if(param === Infinity){
+    return Infinity;
+    }
+    return 1 + parseInt(param);
+}
 
 function isEven(param) {
-    if (param % 2 === 0 || param === !isNaN(parseFloat(param)) && isFinite(param)) {
-        return true;
-    }
-    else  {
-        return false;
-    }
 
+    if(arg === false)
+    return (param % 2) === 0;
 }
 
 
@@ -67,23 +68,13 @@ function isEqual(param1, param2) {
 }
 
 function or(param1, param2) {
-    if (param1 || param2){
-        return true;
-    }
+  return  (param1 || param2);
 }
 
 function and(param1, param2) {
-    if(param1 && param2) {
-    return true;
-} else {
-        return false;
+   return (param1 && param2);
     }
-}
 
-function concat(param1, param2) {
-    if(param1 === "" && param2 === "") {
-        return param1 + param2;
-    } else if (param1 <= 0 && param2 <= 0) {
-        return parseInt(param1) + parseInt(param2);
-    }
+function concat(param1, param2){
+    return param1 + "" + param2;
 }
