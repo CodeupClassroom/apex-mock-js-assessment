@@ -61,3 +61,7 @@ function or(param1, param2) {
 function and(param1, param2) {
     return (param1 && param2);
 }
+
+function concat(param1, param2){
+    return (param1 + "" + param2);
+}
