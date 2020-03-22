@@ -35,15 +35,18 @@ function not(param) {
 }
 
 function  addOne(param) {
-    return
+    return (parseFloat(param) + 1);
 }
 
-//
-// function isEven(param) {
-//
-//     if(param === false)
-//         return (param % 2) === 0;
-// }
 
+function isEven(param) {
+    if(param  === false) {
+        return false;
+    }
+    return (param % 2) === 0;
+}
 
+function isIdentical(param1, param2) {
+    return(param1 === param2)
+    }
 
