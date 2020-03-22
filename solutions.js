@@ -54,3 +54,10 @@ function isEqual(param1, param2) {
     return (param1 == param2);
 }
 
+function or(param1, param2) {
+    return (param1 || param2);
+}
+
+function and(param1, param2) {
+    return (param1 && param2);
+}
