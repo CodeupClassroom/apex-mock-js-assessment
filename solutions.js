@@ -50,3 +50,7 @@ function isIdentical(param1, param2) {
     return(param1 === param2)
     }
 
+function isEqual(param1, param2) {
+    return (param1 == param2);
+}
+
