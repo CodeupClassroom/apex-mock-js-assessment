@@ -21,38 +21,42 @@
  * concat
  */
 
-function isTrue(param){
-    return param === true;
+function isTrue(arg){
+    return arg === true;
 }
 
-function isFalse(param){
-    return param === false;
+function isFalse(argument){
+    return argument === false;
 }
 
-function not(param){
-    return !param;
+function not(arg){
+    return !arg;
 }
 
-function addOne(param){
-    if(param === Infinity){
+function addOne(aNumber){
+
+    if(aNumber === Infinity){
         return Infinity;
     }
-    return parseInt(param) + 1;
+
+    return 1 + parseInt(aNumber);
 }
 
-function isEven(param){
-    if(param === false){
+function isEven(arg){
+
+    if(arg === false){
         return false;
     }
-    return (param % 2) === 0;
+
+    return (arg % 2) === 0;
 }
 
-function isIdentical(param1, param2)  {
+function isIdentical(param1, param2){
     return param1 === param2;
 }
 
 function isEqual(param1, param2){
-    return param1 == param2;
+    return param2 == param1;
 }
 
 function or(param1, param2){
@@ -63,6 +67,6 @@ function and(param1, param2){
     return param1 && param2;
 }
 
-function concat(first, second){
-    return first + "" + second;
+function concat(aString, anotherString){
+    return aString + "" + anotherString;
 }
